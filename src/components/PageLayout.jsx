@@ -11,7 +11,7 @@ const PageLayout = ({ header, footer, children }) => {
                 <main>{children}</main>
             </div>
 
-            <div id ="root">
+            <div id="footer-section">
 
                 <p> {footer}</p>
             </div >
