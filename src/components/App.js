@@ -8,9 +8,9 @@ const App = () => {
     <div>
     
       <PageLayout
-        header={<h1>Welcome to my website</h1>}
-        children={<p>This is the content of my website</p>}
-        footer={<p>@ 2023 My Website. All rights reserved</p>}
+        header="Welcome to my website"
+        children={<main>This is the content of my website</main>}
+        footer={"@ 2023 My Website. All rights reserved"}
       
       />
       
