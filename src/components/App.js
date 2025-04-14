@@ -9,10 +9,11 @@ const App = () => {
     
       <PageLayout
         header="Welcome to my website"
-        children={<p>This is the content of my website.</p>}
+        
         footer={"@ 2023 My Website. All rights reserved"}
-      
-      />
+      >
+        <p>This is the content of my website.</p>
+        </PageLayout>
       
     </div>
   )

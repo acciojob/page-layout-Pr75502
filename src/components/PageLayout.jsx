@@ -4,19 +4,15 @@ const PageLayout = ({ header, footer, children }) => {
 
     return (
         <div>
-            <div>
-                <h1>{header}</h1>
-            </div>
-            <div>
-                <main>{children}</main>
-            </div>
 
-            <div id="footer-section">
+            <h1>{header}</h1>
 
-                <p> {footer}</p>
-            </div >
+            <main>{children}</main>
 
-        </div>
+            <footer> {footer}</footer>
+        </div >
+
+
     )
 }
 export default PageLayout;
